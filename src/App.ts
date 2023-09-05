@@ -9,7 +9,7 @@ import path from "path";
 import { catController } from "./controllers/CatController";
 
 const app: Application = Express();
-const port: number = 4000;
+const port: number = 5000;
 
 app.use(Express.json());
 app.use(
